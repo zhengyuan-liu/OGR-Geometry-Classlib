@@ -5,7 +5,7 @@ OGR Architecture Geometry Classlib simplified version
 
 针对矢量几何要素以及它们之间的关系，业界存在着多种类（class）及体系关系描述形式，其中OGC（OpenGIS协会，Open Geospatial Consortium）给出的OpenGIS（Open Geodata Interoperation Specification, OGIS-开放的地理数据互操作规范）simple features data model得到了业界的广泛认可。/** OGC是一个非赢利性组织，目的是促进采用新的技术和商业方式来提高地理信息处理的互操作性(Interoperability)，它致力于消除地理信息应用（如地理信息系统，遥感，土地信息系统，自动制图/设施管理系统之间以及地理应用与其它信息技术应用之间的藩篱，建立一个无“边界”的、分布的、基于构件的地理数据互操作环境。**/
 
-下图即为GDAL(Geospatial Data Abstraction Library)中OGR Architecture对OpenGIS simple features data model中部分矢量要素（geometry）的实现架构。OGR库的应用十分广泛，包括ARCGIS 9.3、Google Earth和跨平台的GRASS GIS系统均采用了该模型。/*GDAL是一个在X/MIT许可协议下的开源空间数据转换库。它利用抽象数据模型来表达所支持的各种文件格式，拥有一系列命令行工具来进行数据转换和处理，其主要目标是实现数据共享和互操作。OGR是GDAL项目的一个分支，提供对矢量数据的支持。*/
+下图即为GDAL(Geospatial Data Abstraction Library)中OGR Architecture对OpenGIS simple features data model中部分矢量要素（geometry）的实现架构。OGR库的应用十分广泛，包括ARCGIS 9.3、Google Earth和跨平台的GRASS GIS系统均采用了该模型。/** GDAL是一个在X/MIT许可协议下的开源空间数据转换库。它利用抽象数据模型来表达所支持的各种文件格式，拥有一系列命令行工具来进行数据转换和处理，其主要目标是实现数据共享和互操作。OGR是GDAL项目的一个分支，提供对矢量数据的支持。**/
 
 ![](http://www.gdal.org/classOGRGeometry.png)
 
