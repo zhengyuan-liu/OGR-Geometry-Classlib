@@ -10,3 +10,5 @@ OGR Architecture Geometry Classlib simplified version
 ![](http://www.gdal.org/classOGRGeometry.png)
 
 根据上图以及参考资料，使用C++对OGR Architecture进行简化版的实现。
+
+Reference: http://www.gdal.org/classOGRGeometry.html
